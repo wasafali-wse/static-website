@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
-  <!-- Match the root element -->
   <xsl:template match="/">
     <html>
       <head>
@@ -13,7 +12,7 @@
           body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: #f9f9f9;
+            background-color: #f0f0f0;
           }
           h1 {
             color: #333;
