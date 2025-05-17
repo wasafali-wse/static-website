@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://waheeedsonsengineering.com/</loc>
+    <loc>https://waheedsons-engineering.com/</loc>
     <lastmod>2024-08-13</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://waheeedsonsengineering.com/index.html</loc>
+    <loc>https://waheedsons-engineering.com/index.html</loc>
     <lastmod>2024-08-13</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://waheeedsonsengineering.com/pages/projects.html</loc>
+    <loc>https://waheedsons-engineering.com/pages/projects.html</loc>
     <lastmod>2024-08-13</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://waheeedsonsengineering.com/pages/blogs.html</loc>
+    <loc>https://waheedsons-engineering.com/pages/blogs.html</loc>
     <lastmod>2024-08-13</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://waheeedsonsengineering.com/pages/about.html</loc>
+    <loc>https://waheedsons-engineering.com/pages/about.html</loc>
     <lastmod>2024-08-13</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://waheeedsonsengineering.com/pages/services.html</loc>
+    <loc>https://waheedsons-engineering.com/pages/services.html</loc>
     <lastmod>2024-08-13</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://waheeedsonsengineering.com/pages/why_us.html</loc>
+    <loc>https://waheedsons-engineering.com/pages/why_us.html</loc>
     <lastmod>2024-08-13</lastmod>
     <priority>0.80</priority>
   </url>
