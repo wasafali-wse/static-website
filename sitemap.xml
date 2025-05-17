@@ -1,27 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl"?>
-<root>
+<xml>
   <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html" encoding="UTF-8" indent="yes"/>
+    <xsl:output method="html" encoding="UTF-8"/>
     <xsl:template match="/">
       <html>
-        <head>
-          <title>Sitemap</title>
-        </head>
         <body>
           <h1>Sitemap</h1>
           <ul>
-            <li><a href="https://waheedsons-engineering.com/">https://waheedsons-engineering.com/</a></li>
-            <li><a href="https://waheedsons-engineering.com/index.html">https://waheedsons-engineering.com/index.html</a></li>
-            <li><a href="https://waheedsons-engineering.com/pages/projects.html">https://waheedsons-engineering.com/pages/projects.html</a></li>
-            <li><a href="https://waheedsons-engineering.com/pages/blogs.html">https://waheedsons-engineering.com/pages/blogs.html</a></li>
-            <li><a href="https://waheedsons-engineering.com/pages/about.html">https://waheedsons-engineering.com/pages/about.html</a></li>
-            <li><a href="https://waheedsons-engineering.com/pages/services.html">https://waheedsons-engineering.com/pages/services.html</a></li>
-            <li><a href="https://waheedsons-engineering.com/pages/why_us.html">https://waheedsons-engineering.com/pages/why_us.html</a></li>
+            <xsl:for-each select="urlset/url">
+              <li>
+                <a href="{loc}">
+                  <xsl:value-of select="loc"/>
+                </a>
+              </li>
+            </xsl:for-each>
           </ul>
         </body>
       </html>
     </xsl:template>
   </xsl:stylesheet>
-</root>
+
+  <urlset>
+    <url>
+      <loc>https://waheedsons-engineering.com/</loc>
+    </url>
+    <url>
+      <loc>https://waheedsons-engineering.com/index.html</loc>
+    </url>
+    <url>
+      <loc>https://waheedsons-engineering.com/pages/projects.html</loc>
+    </url>
+    <url>
+      <loc>https://waheedsons-engineering.com/pages/blogs.html</loc>
+    </url>
+    <url>
+      <loc>https://waheedsons-engineering.com/pages/about.html</loc>
+    </url>
+    <url>
+      <loc>https://waheedsons-engineering.com/pages/services.html</loc>
+    </url>
+    <url>
+      <loc>https://waheedsons-engineering.com/pages/why_us.html</loc>
+    </url>
+  </urlset>
+</xml>
